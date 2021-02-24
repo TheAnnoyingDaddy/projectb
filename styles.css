@@ -1,0 +1,78 @@
+body {
+  background-color: hsl(210, 46%, 95%);
+  margin: 0;
+  Font-size: 13px;
+  font-family: "Manrope", Arial;
+}
+
+h1 {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+  padding-top: 35px;
+  margin-bottom: 0;
+}
+
+p {
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+  line-height: 1.7;
+  margin-top: 20px;
+  margin-bottom: 5;
+}
+
+.inner {
+  background: white;
+  position: relative;
+  width: 965px;
+  height: 346px;
+  margin: 300px 500px 250px;
+  border-radius: 17px;
+  box-shadow: 0 4px 8px 0 hsl(212, 23%, 69%), 0 6px 20px 0 hsl(212, 23%, 69%);
+
+
+}
+
+.name {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+  position: absolute;
+  margin-left: 550px;
+  top: 5px;
+}
+
+.date {
+  color: hsl(212, 23%, 69%));
+  position: absolute;
+  left: 550px;
+  top: 10px;
+  line-height: 3.5;
+}
+
+.drawer {
+  width: 432px;
+  float: left;
+  margin-right: 50px;
+  border-radius: 15px 0 0 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mich {
+  width: 3rem;
+  position: absolute;
+  margin-bottom: 1000px;
+  top: 16px;
+}
+
+.lower {
+  position: relative;
+  margin-top: 0;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
